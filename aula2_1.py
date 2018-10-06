@@ -6,11 +6,13 @@ delimitador="."
 s=largura/2
 z=largura/2.0
 x=1+2*5
+f=altura/3
 y=delimitador*5
 
-print('o valor de largura/2 é',s)
-print('o valor de largura/2.0 é',z)
-print('o valor de 1+2*5 é',x)
-print('o rosultado de delimitador*5 é',z)
+print('o valor de largura/2 Ã©',s)
+print('o valor de largura/2.0 Ã©',z)
+print('o valor de 1+2*5 Ã©',x)
+print('o rosultado de delimitador*5 Ã©',z)
+print('O valor de altura/3 Ã©',f)
 
 #End_program
