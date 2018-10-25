@@ -1,14 +1,13 @@
-#função local
-import time as tm
-lt=tm.localtime()
-day=lt.tm_mday
-mon=lt.tm_mon
-year=lt.tm_year
-hour=lt.tm_hour
-minu=lt.tm_min
-if mon==10:
-    mon='outubro'
-print('A data de hoje é',day,'/',mon,'/',year)
-print('A hora de hoje é',hour,':',minu)
+#programa que retorna um máximo
+x=float(input('insira um valor'))
+y=float(input('insira um valor'))
+z=float(input('insira um valor'))
+def máx():
+    if x>y and x>z:
+        print("o valor máximo é: ",x)
+    elif y>x and y>z:
+        print("o valor máximo é: ",y)
+    elif z>y and z>x:
+        print("o valor máximo é: ",y)
 
-
+máx()  
